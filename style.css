@@ -1,0 +1,12 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+#banner{
+background:linear-gradient(rgba(59, 59, 59, 0.5),#d08c43), url(Coffee_Shop_img/banner.jpg);  
+background-size: cover;
+background-position: center;
+height: 100vh;
+
+}
