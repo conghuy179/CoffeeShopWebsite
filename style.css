@@ -1,123 +1,125 @@
 * {
-margin: 0;
-padding: 0;
-font-family: 'Dancing Script', cursive;
+    margin: 0;
+    padding: 0;
+    font-family: 'Dancing Script', cursive;
 }
 
-#banner{
-background:linear-gradient(rgba(59, 59, 59, 0.5),#E1C78F), url(Coffee_Shop_img/banner.jpg);
-background-size: cover;
-background-position: center;
-height: 100vh;
+#banner {
+    background: linear-gradient(rgba(59, 59, 59, 0.5), #E1C78F), url(Coffee_Shop_img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
 
 .logo {
-width: 140px;
-position: absolute;
-top: 4%;
-left: 10%;
+    width: 140px;
+    position: absolute;
+    top: 4%;
+    left: 10%;
 }
 
 .banner-text {
-text-align: center;
-color: white;
-padding-top: 180px;
+    text-align: center;
+    color: white;
+    padding-top: 180px;
 }
 
 .banner-text h1 {
-font-size: 100px;
-font-family: 'Dancing Script';
+    font-size: 100px;
+    font-family: 'Dancing Script';
 }
 
 .banner-text p {
-font-size: 30px;
-font-style: italic;
+    font-size: 30px;
+    font-style: italic;
 }
 
 .banner-btn {
-margin: 70px auto 0;
+    margin: 70px auto 0;
 }
 
 .banner-btn a {
     font-size: 25px;
-width: 180px;
-text-decoration: none;
-display: inline-block;
-margin: 0 10px;
-padding: 15px 0;
-color: #fce5cd;
-border: .5px solid #fce5cd;
-position: relative;
-z-index: 1;
-transition: 0.5s;
+    width: 180px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 15px 0;
+    color: #fce5cd;
+    border: .5px solid #fce5cd;
+    position: relative;
+    z-index: 1;
+    transition: 0.5s;
 }
 
-.banner-btn a span{
-width: 0%;
-height: 100%;
-position: absolute;
-top: 0;
-left: 0;
-background: #FAE7C9;
-z-index: -1;
-transition: 0.5s;
+.banner-btn a span {
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #FAE7C9;
+    z-index: -1;
+    transition: 0.5s;
 }
-
 
 .banner-btn a:hover span {
-width: 100%;
+    width: 100%;
 }
 
 .banner-btn a:hover {
-color: 706233;
+    color: 706233;
 }
 
 #sideNav {
-width: 250px;
-height: 100vh;
-position: fixed;
-right: -250px;
-top: 0;
-background: #B0926A;
-z-index: 2;
-transition: 0.5s;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    background: #B0926A;
+    z-index: 2;
+    transition: 0.5s;
 }
 
 nav ul li {
-list-style: none;
-margin: 50px 20px;
+    list-style: none;
+    margin: 50px 20px;
 }
 
 nav ul li a {
-text-decoration: none;
-color: white;
+    text-decoration: none;
+    color: white;
 }
+
 #menuBtn {
-width: 50px;
-height: 50px;
-background: #706233;
-text-align: center;
-position: fixed;
-right: 30px;
-top: 20px;
-border-radius: 3px;
-z-index: 3;
-cursor: pointer;
+    width: 50px;
+    height: 50px;
+    background: #706233;
+    text-align: center;
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    border-radius: 3px;
+    z-index: 3;
+    cursor: pointer;
 }
 
 #menuBtn img {
-width: 20px;
-margin-top: 15px;}
+    width: 20px;
+    margin-top: 15px;
+}
 
 @media screen and (max-width: 770px) {
     .banner-text h1 {
-    font-size: 40px;
+        font-size: 40px;
     }
-    .banner-btn a{
+    .banner-btn a {
         display: block;
         margin: 20px auto;
-    }   
+    }
 }
+
 
 /* feature */
 
@@ -145,7 +147,7 @@ margin-top: 15px;}
     content: '';
     width: 100px;
     height: 60px;
-    background: linear-gradient(#B0926A,#E1C78F);
+    background: linear-gradient(#B0926A, #E1C78F);
     position: absolute;
     top: -20px;
     left: -5;
@@ -157,3 +159,5 @@ margin-top: 15px;}
 .title-text h1 {
     font-size: 50px;
 }
+
+.feature-box {}
