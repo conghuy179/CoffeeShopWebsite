@@ -160,4 +160,44 @@ nav ul li a {
     font-size: 50px;
 }
 
-.feature-box {}
+.feature-box {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+.features {
+    flex-basis: 50%;
+}
+
+.features-img {
+    flex-basis: 50%;
+    margin: auto;
+}
+
+.features-img img {
+    width: 80%;
+    border-radius: 10px;
+}
+
+.features h1 {
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #706233;
+}
+
+.features-desc {
+    display: flex;
+    align-items: center;
+}
+
+.feature-text {
+    width: 100%;
+    font-size: large;
+    text-align: left;
+    color: black;
+}
