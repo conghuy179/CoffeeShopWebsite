@@ -195,9 +195,4 @@ nav ul li a {
     align-items: center;
 }
 
-.feature-text {
-    width: 100%;
-    font-size: large;
-    text-align: left;
-    color: black;
-}
+.feature-text {}
