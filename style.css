@@ -184,15 +184,36 @@ nav ul li a {
 }
 
 .features h1 {
+    font-size: 50px;
     text-align: left;
     margin-bottom: 10px;
-    font-weight: 100;
+    font-weight: 200;
     color: #706233;
 }
 
 .features-desc {
     display: flex;
     align-items: center;
+    margin-bottom: 40px;
 }
 
-.feature-text {}
+.feature-icon .fa {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    line-height: 50px;
+    border-radius: 8px;
+    color: #B0926A;
+    border: 1px solid #B0926A;
+}
+
+.feature-text p {
+    padding: 20px;
+    text-align: initial;
+}
+
+@media screen and (max-width: 770px) {
+    .title-text h1 {
+        font-size: 35px;
+    }
+}
