@@ -214,4 +214,7 @@ nav ul li a {
     .title-text h1 {
         font-size: 35px;
     }
+    .features {
+        flex-basis: 50%;
+    }
 }
