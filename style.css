@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', sans-serif;
 }
 
 #banner {
@@ -131,6 +131,7 @@ nav ul li a {
 .title-text {
     text-align: center;
     padding-bottom: 70px;
+    color: #B0926A;
 }
 
 .title-text p {
@@ -208,13 +209,24 @@ nav ul li a {
 .feature-text p {
     padding: 20px;
     text-align: initial;
+    color: #868073;
+    font-size: 20px;
 }
 
 @media screen and (max-width: 770px) {
     .title-text h1 {
-        font-size: 35px;
+        font-size: 25px;
     }
     .features {
         flex-basis: 50%;
+    }
+    .features h1 {
+        font-size: 30px;
+    }
+    .features-img {
+        flex-basis: 100%;
+    }
+    .features-img img {
+        width: 100%;
     }
 }
