@@ -126,12 +126,13 @@ nav ul li a {
 #feature {
     width: 100%;
     padding: 70px 0;
+    background: #E1C78F;
 }
 
 .title-text {
     text-align: center;
     padding-bottom: 70px;
-    color: #B0926A;
+    color: #868073;
 }
 
 .title-text p {
@@ -222,12 +223,25 @@ nav ul li a {
     }
     .features h1 {
         font-size: 30px;
+        margin-left: 15px;
+        margin-right: 15px;
     }
     .features-img {
         flex-basis: 100%;
     }
     .features-img img {
         width: 100%;
+    }
+    .feature-box {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        display: contents;
+    }
+
+    .features-desc {
+        margin-left: 15px;
+        margin-right: 15px;
     }
 }
 
@@ -279,9 +293,11 @@ nav ul li a {
     font-size: 25px;
     width: 80%;
     position: absolute;
-    bottom: 40%;
+    bottom: 0;
+    opacity: 0;
     left: 50%;
     transform: translateX(-50%);
+    transition: 1s;
 }
 
 hr {
@@ -290,4 +306,65 @@ hr {
     border: 0;
     margin: 15px auto;
     width: 60%;
+}
+
+.service-desc p {
+    font-size: 14px;
+}
+
+.single-service:hover .service-desc {
+    opacity: 1;
+    bottom: 40%;
+}
+
+@media screen and (max-width: 770px) {
+    .single-service {
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    service-desc p {
+        font-size: 12px;
+    }
+    hr {
+        margin: 5px auto;
+    }
+    .single-service:hover .service-desc {
+        bottom: 25%;
+    }
+}
+
+/*---testimonial---*/
+#testimonial {
+    width: 100%;
+    padding: 70px 0;
+}
+.testimonial-row {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.testimonial-col {
+    flex-basis: 28%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px 15px #E1C78F;
+    cursor: pointer;
+}
+
+.testimonial-col p{
+    font-size: 14px;
+}
+.user {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.user img {
+    width: 80px;
+    margin-right: 20px;
+    border-radius: 10px;
 }
