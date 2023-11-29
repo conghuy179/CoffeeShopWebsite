@@ -368,3 +368,13 @@ hr {
     margin-right: 20px;
     border-radius: 10px;
 }
+
+.user-info .fa {
+    margin-left: 10px;
+    color: blue;
+    font-size: 20px;
+}
+
+.user-info small {
+    color: blue;
+}
